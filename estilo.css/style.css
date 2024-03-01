@@ -1,0 +1,180 @@
+body {
+  font-family: lucida console;
+  background-color: #f0ffff;
+  text-align: center;
+  display: block;
+  margin: 8px;
+}
+
+h3 {
+
+  color: #5f9ea0;
+  font-size: 27px;
+  text-decoration: underline;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 62px;
+  letter-spacing: 10px;
+  margin-bottom: 70px;
+
+}
+
+/* Imagen de perfil */
+img {
+  width: 60%;
+  border-radius: 999px;
+  /* Para que la imagen se muestre en un círculo */
+  border-color: #f0ffff;
+
+}
+
+/* Cajas con contenido principal */
+.caja_imagen {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.caja_datos {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-start: 40px;
+  padding-inline-start: 40px;
+}
+
+li {
+  line-height: 30px;
+  display: list-item;
+  list-style-type: disc;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style-type: decimal;
+}
+
+.enlaces {
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.volver {
+  display: block;
+  padding: 50px 0px 50px 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+
+.volver:hover {
+  font-size: 25px;
+  text-decoration: solid;
+}
+
+/* Efecto al paasar por encima de los enlaces */
+.enlaces:hover {
+  text-decoration: solid;
+  font-size: 20px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  padding-bottom: 35px;
+  margin: 0 auto;
+}
+
+th {
+  color: #5f9ea0;
+  font-size: 27px;
+  border-bottom: solid 1px black;
+  padding: 0px;
+  width: 500px;
+}
+
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  padding-top: 35px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.destacar {
+  font-weight: bold;
+  color: green;
+}
+
+/* EXPERIENCIA ACADEMICA */
+
+dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dl {
+  line-height: 2.5rem;
+  padding-left: 5%;
+}
+
+dt {
+  color: #5f9ea0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+dd {
+  padding-bottom: 1.5rem;
+}
